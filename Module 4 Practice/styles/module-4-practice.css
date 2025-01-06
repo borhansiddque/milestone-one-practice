@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo a {
+    color: #333;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dropdown {
+    display: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+.dropdown li {
+    margin-top: 5px;
+}
+
+.dropdown li a {
+    color: #fff;
+}
+
+.nav-menu li:hover .dropdown {
+    display: block;
+    position: absolute;
+}
