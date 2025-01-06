@@ -112,3 +112,87 @@ nav {
     width: 500px;
     height: 400px;
 }
+
+/* Travel Places */
+
+.travel-place {
+    padding: 0px 30px;
+    text-align: center;
+    margin: 100px 0px 60px;
+}
+
+.travel-place table,
+.travel-place th,
+.travel-place td {
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+.travel-place table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.travel-place table caption {
+    color: #333;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.travel-place th,
+.travel-place td {
+    padding: 10px 20px;
+}
+
+/* Travel With Me */
+
+.travel-with-me {
+    margin: 100px 0px 60px;
+}
+
+.travel-with-me form {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.travel-with-me > form > label {
+    margin-top: 20px;
+    display: block;
+}
+
+.travel-with-me > form > label > input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #80ff00da;
+    border-radius: 8px;
+}
+
+.travel-with-me fieldset {
+    width: 30%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #9afc3865;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #9afc3865;
+}
