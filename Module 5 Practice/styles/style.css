@@ -1,0 +1,106 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merienda", serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e22028;
+    border-radius: 15px 50px 50px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: "Source Sans 3", serif;
+}
+
+.btn:hover {
+    background-color: #ab2c32;
+}
+
+/* Navbar Style */
+
+.top-nav-container {
+    background-color: #fef7f0;
+    padding: 15px 0px;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav-number {
+    color: #4c6386;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav-social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-social-container li a img {
+    width: 20px;
+}
+
+/* Main Menu */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.main-nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-nav-menu li a {
+    color: #454043;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.main-nav-menu li a:hover {
+    color: #a8b7d5;
+}
