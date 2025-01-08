@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: #fff;
     background-color: #e22028;
-    border-radius: 15px 50px 50px;
+    border-radius: 5px 50px 50px;
     cursor: pointer;
     letter-spacing: 2px;
     font-family: "Source Sans 3", serif;
@@ -103,4 +103,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-nav-menu li a:hover {
     color: #a8b7d5;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url("../media/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.hero-content {
+    width: 40%;
+}
+
+.hero-title {
+    font-size: 85px;
+    color: #454043;
+    line-height: 94px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #454043;
+    margin: 50px 0px;
 }
