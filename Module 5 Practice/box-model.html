@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
+    <style>
+        body {
+            padding-top: 100px;
+        }
+
+        .box-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .box {
+            width: 400px;
+            height: 400px;
+            border: 5px solid lightblue;
+            padding: 20px;
+            margin: 20px;
+            color: #fff;
+        }
+
+        .box-one {
+            background-color: cadetblue;
+        }
+
+        .box-two {
+            background-color: brown;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="box-container">
+        <div class="box-one box">
+            <p>Width : 490px</p>
+            <p>Height : 490px</p>
+            <p>Without Box Sizing</p>
+        </div>
+        <div class="box-two box">
+            <p>Width : 400px</p>
+            <p>Height : 400px</p>
+            <p>With Box Sizing</p>
+        </div>
+    </div>
 </body>
 </html>
