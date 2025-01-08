@@ -46,6 +46,23 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ab2c32;
 }
 
+.section-head {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 43px;
+    color: #454043;
+}
+
+.section-head-line {
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #e22028;
+}
+
 .paragraph {
     font-size: 17px;
     line-height: 29px;
@@ -225,4 +242,58 @@ h1, h2, h3, h4, h5, h6 {
 .about-content .btn:hover {
     color: #fff;
     background-color: #e22028;
+}
+
+/* Your Sweets Section Style */
+
+.your-sweets {
+    padding: 80px 0px;
+    background-image: url("../media/sweets-bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.your-sweets-cards-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.your-sweets-card {
+    padding: 40px 30px;
+    width: 360px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #fff;
+    border-radius: 10px;
+}
+
+.your-sweets-card-img {
+    height: 315px;
+}
+
+.your-sweets-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.your-sweets-card-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.your-sweets-card-content h3 {
+    font-size: 26px;
+    color: #454043;
+    margin-bottom: 25px;
+}
+
+.your-sweets-card-content a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #4d6386;
 }
