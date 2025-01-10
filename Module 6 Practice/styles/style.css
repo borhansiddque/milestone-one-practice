@@ -34,6 +34,24 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
+.btn {
+    border: none;
+    outline: none;
+    background-color: #52acfe;
+    color: #fff;
+    padding: 18px 50px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px #263a4f;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #263a4f;
+}
+
 /* Navbar Style */
 
 nav {
@@ -64,4 +82,33 @@ nav {
 
 .nav-menu li a {
     color: #263a4f;
+}
+
+/* Hero Section Style */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(38, 58, 79, 0.5), rgba(38, 58, 79, 0.5)), url("../images/hero-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+.hero-content {
+    text-align: center;
+    width: 70%;
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 90px;
+    line-height: 110px;
+    font-weight: 400;
+}
+
+.hero-description {
+    font-size: 18px;
+    margin: 40px 0px;
 }
