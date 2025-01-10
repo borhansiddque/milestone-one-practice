@@ -33,3 +33,35 @@ h1, h2, h3, h4, h5 {
     width: 80%;
     margin: 0 auto;
 }
+
+/* Navbar Style */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+}
+
+.logo h2 {
+    color: #263a4f;
+    font-size: 38px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-menu li a:hover {
+    color: #52acfe;
+}
+
+.nav-menu li a {
+    color: #263a4f;
+}
