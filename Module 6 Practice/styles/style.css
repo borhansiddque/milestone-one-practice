@@ -52,6 +52,24 @@ h1, h2, h3, h4, h5 {
     color: #263a4f;
 }
 
+.section-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #263a4f;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #263a4f;
+}
+
+.section-line {
+    border-top: 8px dotted #52acfe;
+    width: 60px;
+    margin: 22px auto 0px;
+}
+
 /* Navbar Style */
 
 nav {
@@ -111,4 +129,20 @@ nav {
 .hero-description {
     font-size: 18px;
     margin: 40px 0px;
+}
+
+/* Welcome Section Style */
+.welcome-section {
+    background-color: #e5ecf3;
+    padding: 80px 0px;
+}
+
+.welcome-content {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.welcome-content .section-description {
+    margin-top: 30px;
 }
