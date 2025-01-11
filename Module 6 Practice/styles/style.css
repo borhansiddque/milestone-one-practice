@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -62,12 +62,18 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     line-height: 30px;
     color: #263a4f;
+    margin-top: 30px;
 }
 
 .section-line {
     border-top: 8px dotted #52acfe;
     width: 60px;
     margin: 22px auto 0px;
+}
+
+.paragraph {
+    line-height: 24px;
+    color: #263a4f;
 }
 
 /* Navbar Style */
@@ -145,4 +151,42 @@ nav {
 
 .welcome-content .section-description {
     margin-top: 30px;
+}
+
+/* Activities Section Style */
+.activities-section {
+    padding: 80px 0px;
+}
+
+.activities-section-head {
+    text-align: center;
+}
+
+.activities-cards-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.activities-card {
+    width: 49%;
+    height: 240px;
+    background-color: #e5ecf3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 30px;
+    border-radius: 8px;
+}
+
+.activities-card-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #263a4f;
+    margin-bottom: 10px;
 }
