@@ -190,3 +190,92 @@ nav {
     color: #263a4f;
     margin-bottom: 10px;
 }
+
+/* Our Guides Section Style */
+.our-guides {
+    padding: 100px 0px;
+    background-image: url("../images/bg-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.our-guides-head {
+    text-align: center;
+}
+
+.our-guides-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.our-guides-card {
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.our-guides-card-img {
+    height: 280px;
+}
+
+.our-guides-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.guides-one {
+    object-position: top;
+}
+
+.guides-two {
+    object-position: 0px -65px;
+}
+
+.our-guides-social {
+    display: flex;
+    gap: 15px;
+}
+
+.our-guides-social li {
+    border: 1px solid #263a4f;
+    border-radius: 4px;
+    padding: 5px;
+    color: #263a4f;
+    cursor: pointer;
+}
+
+.our-guides-social li:hover {
+    background-color: #263a4f;
+    color: #fff;
+}
+
+.our-guides-social li i {
+    font-size: 25px;
+}
+
+.our-guides-card-content {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.our-guides-card-content h3 {
+    font-size: 26px;
+    color: #263a4f;
+}
+
+.our-guides-email {
+    text-decoration: underline;
+    color: #263a4f;
+    font-size: 12px;
+}
+
+.our-guides-email:hover {
+    text-decoration: none;
+}
