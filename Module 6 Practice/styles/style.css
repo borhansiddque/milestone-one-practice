@@ -279,3 +279,116 @@ nav {
 .our-guides-email:hover {
     text-decoration: none;
 }
+
+/* Events & Packages Section Style */
+.event-package-section {
+    padding: 90px 0px;
+    background-image: url('../images/bg-2.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Event Section */
+.event-section-head {
+    text-align: center;
+}
+
+.events-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.event-card-img {
+    height: 220px;
+}
+
+.event-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event-card-content {
+    margin-top: 20px;
+}
+
+.event-date {
+    font-size: 12px;
+    color: #263a4f;
+}
+
+.event-title {
+    font-size: 22px;
+    color: #263a4f;
+    margin: 20px 0px 30px;
+    line-height: 30px;
+}
+
+.event-more {
+    display: inline-block;
+    margin-top: 30px;
+    color: #52acfe;
+    font-weight: 600;
+}
+
+/* Packages Section */
+
+.packages-section {
+    margin-top: 90px;
+}
+
+.packages-section-head {
+    text-align: center;
+}
+
+.packages-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.package-card {
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.package-card-style-one {
+    background-color: #e5ecf3;
+    font-family: "Noto Sans", serif;
+}
+
+.package-card-style-one h3 {
+    color: #263a4f;
+    font-size: 22px;
+}
+
+.package-card-style-one h4 {
+    color: #52acfe;
+    font-size: 18px;
+    margin: 25px 0px 10px;
+}
+
+.package-card-style-two {
+    background-color: #3e556c;
+    color: #fff;
+}
+
+.package-card-style-two h3 {
+    font-size: 22px;
+}
+
+.package-card-style-two h4 {
+    color: #52acfe;
+    font-size: 18px;
+    margin: 25px 0px 10px;
+}
+
+.package-card-style-two .paragraph {
+    color: #fff;
+    font-size: 18px;
+}
+
