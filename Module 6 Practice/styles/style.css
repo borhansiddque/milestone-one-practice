@@ -392,3 +392,32 @@ nav {
     font-size: 18px;
 }
 
+/* Book Your Trip Section Style */
+
+.book-your-trip-section {
+    background: linear-gradient(rgba(64, 82, 101, 0.8), rgba(64, 82, 101, 0.8)), url("../images/book-trip-bg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+
+.book-your-trip-section-content {
+    text-align: center;
+}
+
+.book-your-trip-section-content .section-title,
+.book-your-trip-section-content .section-description,
+.book-your-trip-section-content .paragraph {
+    color: #fff;
+}
+
+.book-your-trip-section-content .section-line {
+    margin: 20px auto 40px;
+    border-color: #fff;
+}
+
+.book-your-trip-section-content .btn {
+    margin-top: 50px;
+}
