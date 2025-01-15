@@ -599,3 +599,11 @@ nav {
 .membership-img img {
     width: 100%;
 }
+
+/* Footer Section Style */
+footer {
+    padding: 30px 0px;
+    background-color: #263a4f;
+    color: #e5ecf3;
+    text-align: center;
+}
