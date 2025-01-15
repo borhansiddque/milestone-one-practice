@@ -563,3 +563,39 @@ nav {
     color: #263a4f;
     box-shadow: none;
 }
+
+/* Membership Section Style */
+.membership-section {
+    padding: 80px 0px;
+}
+
+.membership-container {
+    display: flex;
+    gap: 40px;
+}
+
+.membership-content {
+    width: 50%;
+}
+
+.membership-content .section-line {
+    margin: 20px 0px;
+}
+
+.membership-content .section-description {
+    margin-bottom: 50px;
+    color: #263a4f;
+}
+
+.membership-content .btn:hover {
+    background-color: #263a4f;
+    color: #fff;
+}
+
+.membership-img {
+    width: 50%;
+}
+
+.membership-img img {
+    width: 100%;
+}
