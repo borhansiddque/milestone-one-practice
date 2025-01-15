@@ -462,3 +462,63 @@ nav {
     color: #263a4f;
     margin-top: 40px;
 }
+
+/* Our Resort Section Style */
+.our-resort {
+    background-image: url("../images/bg-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+}
+
+.our-resort-section-head {
+    text-align: center;
+}
+
+.our-resort-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 110px;
+}
+
+.our-resort-card {
+    text-align: center;
+    padding: 40px;
+}
+
+.our-resort-card-bg-one {
+    background-color: #fff;
+}
+
+.our-resort-card-bg-two {
+    background-color: #263a4f;
+    color: #fff;
+}
+
+.our-resort-card-bg-two  .paragraph {
+    color: #e5ecf3;
+}
+
+.our-resort-card h4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.our-resort-card-img {
+    background-color: #3e556c;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -90px auto 40px;
+}
+
+.our-resort-card-img img {
+    width: 60px;
+}
