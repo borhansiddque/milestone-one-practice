@@ -421,3 +421,44 @@ nav {
 .book-your-trip-section-content .btn {
     margin-top: 50px;
 }
+
+
+/* About Our Club & Resort Section Style */
+
+.about-our-club-section {
+    padding: 100px 0px;
+}
+
+.about-our-club-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-our-club-img {
+    width: 50%;
+}
+
+.about-our-club-img img {
+    width: 100%;
+}
+
+.about-our-club-content {
+    width: 50%;
+}
+
+.about-our-club-content .section-line {
+    margin: 20px 0px;
+}
+
+.about-our-club-para {
+    margin-top: 20px;
+}
+
+.about-our-club-content .btn {
+    background-color: transparent;
+    border: 2px solid #52acfe;
+    box-shadow: none;
+    color: #263a4f;
+    margin-top: 40px;
+}
