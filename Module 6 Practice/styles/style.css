@@ -522,3 +522,44 @@ nav {
 .our-resort-card-img img {
     width: 60px;
 }
+
+/* Gallery Section Style */
+.gallery-section {
+    padding: 80px 0px;
+}
+
+.gallery-section-head {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.gallery-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin: 40px 0px;
+}
+
+.gallery-image {
+    padding: 25px;
+    background-color: #e5ecf3;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.gallery-btn {
+    text-align: center;
+}
+
+.gallery-btn .btn {
+    background-color: transparent;
+    border: 2px solid #52acfe;
+    color: #263a4f;
+    box-shadow: none;
+}
